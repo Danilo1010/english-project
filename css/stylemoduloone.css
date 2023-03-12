@@ -1,0 +1,68 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 20px;
+    font-size: 20px;
+   
+}
+
+html, body {
+    background-color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+} 
+
+header {
+    color: black;
+    width: 1130px; 
+    height: 60px;
+    display: flex;
+    font-size: 25px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 255, 226);
+    position: relative;
+    left: 85px;
+}
+
+#one {
+    position: relative;
+    left: 350px;
+}
+
+
+.container div {
+    color: black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    font-size: 25px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 255, 226);
+}
+
+.container {
+    display: flex;
+}
+
+#example {
+    color: black;
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    font-size: 25px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 255, 226);
+}
+
+
+
